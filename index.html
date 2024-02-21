@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Indagine Alimentare</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <form action="">
+
+            <div class="main">
+                <h1 class="titoli">Indagine Alimentare</h1>
+
+                <div class="form-group">
+                    <label for="name artist">Nome </label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Data di Nascita:</label>
+                    <input type="date" id="dateconcert" name="dateconcert" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Classe">Classe:</label>
+                    <select id="Classe" name="Classe" required>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">5</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p for="Scuola">Scuola:</p>
+                    <input type="radio" id="marconi" name="marconi" value="marconi">
+                    <label for="marconi">Marconi Hack Bari</label><br>
+                    <input type="radio" id="margherita" name="margherita" value="margherita">
+                    <label for="margherita">Margherita Hack</label><br>
+                </div>
+
+                <h4 class="titoli">Colazione</h4>
+
+                <div class="form-group">
+                    <label for="consumo">Cibo Consumato:</label>
+                    <select id="consumo" name="consumo" required>
+                        <option value="dolci_acquistati" selected>Dolci Acquistati</option>
+                        <option value="dolci_casa">Dolci Fatti in Casa</option>
+                        <option value="salato">Cibo Salato</option>
+                        <option value="frutta">Frutta</option>
+                        <option value="yogurt">Yogurt</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p for="bevande">Bevande Consumate:</p>
+                    <input type="checkbox" id="acqua" name="acqua" value="acqua">
+                    <label for="acqua">Acqua</label><br>
+                    <input type="checkbox" id="latte" name="latte" value="latte">
+                    <label for="latte">Latte</label><br>
+                    <input type="checkbox" id="infuso" name="infuso" value="infuso">
+                    <label for="infuso">Infuso</label><br>
+                    <input type="checkbox" id="b_zuccherata" name="b_zuccherata" value="b_zuccherata">
+                    <label for="b_zuccherata">Bevanda Zuccherata</label><br>
+                    <input type="checkbox" id="b_vegetale" name="b_vegetale" value="b_vegetale">
+                    <label for="b_vegetale">Bevanda Vegetale</label><br>
+                </div>
+
+                <div class="form group">
+                    <input type="submit" value="Invia">
+                </div>
+
+
+            </div>
+        </form>
+</body>
+
+</html>
